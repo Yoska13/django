@@ -89,6 +89,7 @@ SECRET_KEY = 'o(vvk4uckvhg_bw+iasvv^8z8hr04vvt4m^qem^$s*vv(#!#gc'
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
+    
 #     'django.template.loaders.eggs.Loader',
 )
 
@@ -108,6 +109,8 @@ ROOT_URLCONF = 'NaamanInsuranceSite.urls'
 WSGI_APPLICATION = 'NaamanInsuranceSite.wsgi.application'
 
 TEMPLATE_DIRS = (
+     r'C:\MyGit\Django\django\NaamanInsuranceSite\NaamanInsuranceSite\templates',
+     r'C:\MyGit\Django\django\NaamanInsuranceSite\bids\templates'
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
