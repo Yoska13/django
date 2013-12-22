@@ -110,7 +110,9 @@ WSGI_APPLICATION = 'NaamanInsuranceSite.wsgi.application'
 
 TEMPLATE_DIRS = (
      r'C:\MyGit\Django\django\NaamanInsuranceSite\NaamanInsuranceSite\templates',
-     r'C:\MyGit\Django\django\NaamanInsuranceSite\bids\templates'
+     r'C:\MyGit\Django\django\NaamanInsuranceSite\bids\templates',
+     r'C:\RoiGit\django\NaamanInsuranceSite\NaamanInsuranceSite\templates',
+     r'C:\RoiGit\django\NaamanInsuranceSite\bids\templates'
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
